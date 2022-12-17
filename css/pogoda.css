@@ -1,0 +1,89 @@
+body {
+	background-image: url(https://rare-gallery.com/uploads/posts/11066-free-hd-wallpapers-widescreen-nature__free-hd-wallpapers-widescreen-nature.jpg);
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	object-fit: fill;
+	}
+.meni{
+	display: block;
+	text-align:center;
+}
+
+h1{
+	margin-top:50px ;
+	font-size: 38px;
+	font-weight: bold;
+}
+#cityInput, #cityName, #inputContainer,button{
+	margin: 3px;
+padding:5px;
+text-align:center;
+font-size:32px;
+font-weight:bold;
+
+}
+.card{
+	display: inline-bock;
+	float: left;
+	height: 300px;
+	width: 290px;
+	margin: 20px;
+	border: 1px solid rgb(218, 161, 7);
+	box-shadow: 0 5px 5px#672806 ;
+	border-radius: 10px;
+	background-color: rgb(224, 226, 183);
+}
+.weather{
+	margin: 5px;
+	border-radius: 5px;
+	text-align: center;
+	font-weight: bold;
+}
+
+h2{
+	font-size: 42px;
+	color:#edd014;
+	text-shadow:  0 3px 3px#03212b;
+	}
+#timeOuT {
+	line-height: 1.5;
+	color:#6d4f08;
+	font-weight:bold;
+	}
+	#date {
+	font-size:32px;
+	color:#edd014;
+	text-shadow:  0 3px 3px#03212b;
+	}
+	#time {
+	background: #0e1b57;	
+	margin-top:5px;
+	font-style:italic;
+	color:#edd014;
+	text-shadow: 0 0 3px #000000;
+	font-size:32px;
+	padding: 5px;
+	border-radius: 2px;
+	}
+	
+p{
+	font-size:32px ;
+	color: rgb(6, 12, 64);
+	text-shadow: 0 1px 1px #000000;
+}
+.dateInfo{
+	margin-top: 50px;
+  	width: 100%;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+  }
+  .weatherContainer{
+	height:500px ;
+	width:100% ;
+	display: flex;
+	justify-content: center;
+}

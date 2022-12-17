@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/pogoda.css">
+	<script defer src="js/pogoda.js"></script>
+	<title>Document</title>
+</head>
+
+
+<body>
+	<div class="dateInfo">
+		<h2>Місцевий час та дата</h2>
+		<p>Сьогодні: <strong><span id="date"></span></strong></p>
+		<p id="timeOuT">Поточний час: <strong><span id="time"></span></strong></p>
+
+		<h2>Погода на 3 дня</h2>
+
+	</div>
+	<section class="meni">
+
+		<p id="inputContainer">City: <input type="text" id="cityInput"></p>
+		<button type="button" onclick="GetInfo()">Click Me</button>
+		<h2 id="cityName">---Kiev---</h2>
+	</section>
+
+	<div class="weatherContainer">
+		<div id="card" class="card">
+			<p class="weather" id="day1"></p>
+
+			<p>Loading...</p>
+
+		</div>
+		<div class="card">
+			<p class="weather" id="day2"></p>
+			<p>Loading...</p>
+
+		</div>
+		<div class="card">
+			<p class="weather" id="day3"></p>
+			<p>Loading...</p>
+		</div>
+	</div>
+</body>
+
+</html>
