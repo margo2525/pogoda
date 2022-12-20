@@ -6,6 +6,9 @@ body {
 	box-sizing: border-box;
 	object-fit: fill;
 	}
+	
+	
+
 .meni{
 	display: block;
 	text-align:center;
@@ -28,7 +31,7 @@ font-weight:bold;
 	display: inline-bock;
 	float: left;
 	height: 300px;
-	width: 290px;
+	width: 300px;
 	margin: 20px;
 	border: 1px solid rgb(218, 161, 7);
 	box-shadow: 0 5px 5px#672806 ;
@@ -72,6 +75,7 @@ p{
 	font-size:32px ;
 	color: rgb(6, 12, 64);
 	text-shadow: 0 1px 1px #000000;
+	padding:17px ;
 }
 .dateInfo{
 	margin-top: 50px;
@@ -86,4 +90,7 @@ p{
 	width:100% ;
 	display: flex;
 	justify-content: center;
+}
+div{
+	text-align: center;
 }
